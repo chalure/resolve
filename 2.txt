@@ -1,0 +1,11 @@
+#ถฅผถฮฤตติชหุ
+<![ %partwise; [ 
+<!ELEMENT score-partwise (%score-header;, part+)> 
+<!ELEMENT part (measure+)> 
+<!ELEMENT measure (%music-data;)> 
+]]> 
+<![ %timewise; [ 
+<!ELEMENT score-timewise (%score-header;, measure+)> 
+<!ELEMENT measure (part+)> 
+<!ELEMENT part (%music-data;)>
+]]>
